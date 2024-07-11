@@ -1,0 +1,69 @@
+.titolo-pagina{
+    margin-bottom: 100px;
+    background-color: #1E653A;
+    font-family: helvetica;
+    text-align: center;
+}
+
+.material-icons.modifica{
+    color: blue;
+    cursor: pointer;
+    margin-left: 20px; 
+    font-size: 18px;
+
+}
+
+.material-icons.dettagli{
+    color: aqua;
+    cursor: pointer;
+    margin-left: 20px; 
+    font-size: 18px;
+
+}
+
+.material-icons.elimina{
+    color: red;
+    cursor: pointer;
+    margin-left: 20px; 
+    font-size: 18px;
+
+}
+
+
+i.material-icons
+{
+    color: violet;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+
+
+.colP {
+    width: 150px; 
+    max-width: 150px; 
+  }
+
+
+  .colD {
+    width: 300px; 
+    max-width: 300px; 
+  }
+
+
+  .colDI {
+    width: 300px; 
+    max-width: 300px;
+  }
+
+
+  .colDIC {
+    width: 400px;
+    max-width: 400px;
+  }
+
+
+
+  button.btn.btn-danger{
+    margin-right: 50px;
+  }

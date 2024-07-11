@@ -1,0 +1,22 @@
+.titolo-pagina{
+    margin-bottom: 100px;
+    background-color: #EC922C;
+    font-family: helvetica;
+    text-align: center;
+}
+
+
+.material-icons.modifica{
+    color: blue;
+    cursor: pointer;
+}
+
+.material-icons.dettagli{
+    color: aqua;
+    cursor: pointer;
+}
+
+.material-icons.elimina{
+    color: red;
+    cursor: pointer;
+}

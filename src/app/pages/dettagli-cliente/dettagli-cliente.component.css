@@ -1,0 +1,15 @@
+.titolo-pagina{
+    margin-bottom: 100px;
+    background-color: #ECECEC;
+    font-family: helvetica;
+    text-align: center;
+}
+
+div.container{
+
+    width: 500px;
+
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}

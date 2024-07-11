@@ -1,0 +1,54 @@
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand" routerLink="benvenuto">
+                    <img src="/assets/images/picsvg_download.svg" alt="" width="90" height="75" class="d-inline-block align-text-top">
+                  </a>
+                </div>
+              </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/inventario">INVENTARIO</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link"routerLink="/lista-clienti">LISTA CLIENTI</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/ordini">ORDINI</a>
+              </li>
+
+            </ul>
+    
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="img-circle right-align" src="/assets/images/1486564400-account_81513.png" width="38" height="38">
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Accedi</a></li>
+                <li><a class="dropdown-item" href="#">Registrati</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" routerLink="/logout" (click)="logout()">Logout</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </nav>
+    
+    
+    </header>
+    
+    
+    
+    
+    
+    

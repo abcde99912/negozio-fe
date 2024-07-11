@@ -1,0 +1,35 @@
+<div class="d-flex justify-content-center align-items-center margini-login">
+    <img class="img-login rounded" src="assets/images/T-a2e52e6767469c1271ddeb6d970094e0-964x300.jpg" alt="Immagine di un magazzino" title="Foto magazzino">
+
+      <form (ngSubmit)="gestAuth()">
+  <div class="container">
+          <h4 class="title-card titolo-pagina">ACCEDI</h4>
+          <div class="form-group">
+            <input type="text" class="form-control" [(ngModel)]="username" name="username" placeholder="Nome Utente" required>
+          </div>
+
+     
+          <div class="form-group">
+            <input type="password" class="form-control" [(ngModel)]="password" name="password" placeholder="Password" required>
+          </div>
+  
+        <div class="col-12">
+          <div class="form-group">
+
+            <button type="submit" class="form-control titolo-pagina btn btn-success">Connetti</button>
+          </div>
+        </div>
+    
+        <div class="col-md-12">
+
+          <div *ngIf="loginFallito" class="alert alert-danger titolo-pagina" role="alert">
+            Utente non autorizzato
+          </div>
+        </div>
+      </div>
+      </form>
+      
+</div>
+
+
+
