@@ -8,7 +8,7 @@
 .material-icons.modifica{
     color: blue;
     cursor: pointer;
-    margin-left: 20px; 
+    /* margin-left: 20px;  */
     font-size: 18px;
 
 }
@@ -16,7 +16,7 @@
 .material-icons.dettagli{
     color: aqua;
     cursor: pointer;
-    margin-left: 20px; 
+    margin-left: 10px; 
     font-size: 18px;
 
 }
@@ -24,7 +24,7 @@
 .material-icons.elimina{
     color: red;
     cursor: pointer;
-    margin-left: 20px; 
+    margin-left: 10px; 
     font-size: 18px;
 
 }
@@ -37,32 +37,21 @@ i.material-icons
     font-size: 32px;
 }
 
-
-
-.colP {
-    width: 150px; 
-    max-width: 150px; 
+  .colP { 
+    width: 500px; 
   }
 
-
-  .colD {
-    width: 300px; 
-    max-width: 300px; 
+  .colDI { 
+    width: 5%; 
   }
 
-
-  .colDI {
-    width: 300px; 
-    max-width: 300px;
+  .colD { 
+    width: 500px; 
   }
 
-
-  .colDIC {
-    width: 400px;
-    max-width: 400px;
+  .colDIC { 
+    width: 5%; 
   }
-
-
 
   button.btn.btn-danger{
     margin-right: 50px;
