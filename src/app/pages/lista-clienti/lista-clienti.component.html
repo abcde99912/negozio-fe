@@ -26,15 +26,15 @@
         <thead>
           <tr>
             <th></th>
-            <th class="colP">Cognome</th> 
-            <th class="colP">Nome</th>
+            <th>Cognome</th> 
+            <th>Nome</th>
             <th>Email</th>
-            <th class="colDI">Indirizzo</th>
-            <th>Data creazione</th>
+            <th>Indirizzo</th>
             <th>Profilo</th>
             <th>Codice fiscale</th>
-            <th>Data ultima modifica</th>
-            <th></th>
+            <th class="colP">Data creazione</th>
+            <th class="colD">Data ultima modifica</th>
+            <th class="colP"></th>
           </tr>
         </thead>
         <tbody>
@@ -45,13 +45,12 @@
             <td>{{ cliente.nomeCli }}</td>
             <td>{{ cliente.emailCli }}</td>
             <td>{{ cliente.indirizzoCli }}</td>
-            <td class="colD">{{ cliente.dataCreCli }}</td>
             <td>{{ cliente.profiloCli.descPrf }}</td>
             <td>{{ cliente.codiceFiscaleCli }}</td>
-            <td class="colD">{{ cliente.dataUltimaModifica | date: 'dd/MM/yyyy, HH:mm' }}</td>
-              
+            <td>{{ cliente.dataCreCli }}</td>
+            <td>{{ cliente.dataUltimaModifica | date: 'dd/MM/yyyy, HH:mm' }}</td>
 
-            <td class="colDIC">
+            <td>
               <i class="material-icons modifica" (click)="modificaCliente(cliente.idCli)" alt="Icona Modifica" title="Modifica">edit</i>
               <i class="material-icons dettagli" (click)="dettagliCliente(cliente.idCli)"alt="Icona Visualizza Dettagli" title="Visualizza Dettagli">visibility</i>
               <i class="material-icons elimina" (click)="eliminaCliente(cliente.idCli)"alt="Icona Elimina" title="Elimina">delete_forever</i>
