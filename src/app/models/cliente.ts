@@ -8,6 +8,7 @@ export class Cliente {
     profiloCli: ProfiloCliente;
     selezionato: boolean = false;
     codiceFiscaleCli: string;
+    dataUltimaModifica: Date;
 
     constructor() {
         this.idCli = 0;
@@ -17,7 +18,8 @@ export class Cliente {
         this.indirizzoCli = '';
         this.codiceFiscaleCli = '';
         this.dataCreCli = new Date();
-        this.profiloCli = new ProfiloCliente(); 
+        this.profiloCli = new ProfiloCliente();
+        this.dataUltimaModifica = new Date();
         
     }
 }
