@@ -33,6 +33,7 @@
             <th>Data creazione</th>
             <th>Profilo</th>
             <th>Codice fiscale</th>
+            <th>Data ultima modifica</th>
             <th></th>
           </tr>
         </thead>
@@ -44,9 +45,11 @@
             <td>{{ cliente.nomeCli }}</td>
             <td>{{ cliente.emailCli }}</td>
             <td>{{ cliente.indirizzoCli }}</td>
-            <td>{{ cliente.dataCreCli }}</td>
+            <td class="colD">{{ cliente.dataCreCli }}</td>
             <td>{{ cliente.profiloCli.descPrf }}</td>
             <td>{{ cliente.codiceFiscaleCli }}</td>
+            <td class="colD">{{ cliente.dataUltimaModifica | date: 'dd/MM/yyyy, HH:mm' }}</td>
+              
 
             <td class="colDIC">
               <i class="material-icons modifica" (click)="modificaCliente(cliente.idCli)" alt="Icona Modifica" title="Modifica">edit</i>
