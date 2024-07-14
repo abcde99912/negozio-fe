@@ -40,7 +40,7 @@
         <tbody>
 
           <tr *ngFor="let cliente of clienti | paginate: { itemsPerPage: righe, currentPage: pagina}">
-            <td><input type="checkbox" [(ngModel)]="cliente.selezionato" class="hover-checkbox"></td>
+            <td><input type="checkbox" [(ngModel)]="cliente.selezionato"></td>
             <td>{{ cliente.cognomeCli }}</td>
             <td>{{ cliente.nomeCli }}</td>
             <td>{{ cliente.emailCli }}</td>
